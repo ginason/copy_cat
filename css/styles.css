@@ -1,0 +1,126 @@
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+text-align: center;
+background-color: #06D6A0;
+color: white;
+}
+.menu{
+  display: inline;
+  /*margin: 0 auto;*/
+  /*padding: 0 auto;*/
+}
+h1{
+  margin-bottom: 0;
+}
+.menulink{
+  font-size: 18px;
+  margin: 0;
+}
+.wallpaper{
+  width: 100%;
+}
+h2{
+  text-align: center;
+  border-bottom: 5px solid red;
+  width: 300px;
+  margin: 1em auto;
+}
+.cats{
+  background-color: #FFD166;
+
+}
+.articlecats{
+  padding: 20px;
+}
+.catsimages{
+  width: 95%;
+  margin: auto;
+}
+.aboutmenu{
+  text-align: center;
+
+}
+.aboutlink{
+  display: inline-block;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #EF476F;
+
+}
+.about{
+  background-color: #26547C;
+}
+.aboutfont{
+  color: white;
+}
+.articleabout{
+  padding: 20px;
+}
+footer{
+  background-color: #06D6A0;
+  line-height: 50px;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  header{
+    display: flex;
+  }
+
+  .menulink{
+    display: inline-block;
+    font-size: 18px;
+    float: left;
+    padding-left: 20px;
+    /*margin-left: 10px;*/
+  }
+.welcom{
+  display: inline-block;
+  position: absolute;
+}
+.logo{
+  background-color: #06D6A0;
+  font-size: 25px;
+  height: 2em;
+}
+.titlemenu{
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+h2{
+  width: 200px;
+  padding-left: 90px;
+  border-bottom: none;
+  font-size: 38px;
+  color: white;
+
+}
+.wallpaper{
+  width: 50%;
+}
+section{
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+.home{
+  background-color: #26547C;
+}
+.catsimages {
+
+    margin: 0 70px;
+    /*display: inline;*/
+}
+.catspic{
+  border: 2px solid black;
+  width: 25%;
+  margin: 10px;
+}
+.menu{
+  display: inline;
+}
+}
